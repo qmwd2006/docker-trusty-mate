@@ -1,0 +1,6 @@
+sudo debootstrap trusty ./trusty http://cn.archive.ubuntu.com/ubuntu/
+
+sudo tar -C trusty/ -cf - . > trusty-raw.tar
+
+#sudo tar -C trusty/ -cf - . | docker import - trusty-raw
+
