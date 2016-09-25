@@ -1,0 +1,3 @@
+[submodule "3th/tini"]
+	path = 3th/tini
+	url = https://github.com/krallin/tini.git
